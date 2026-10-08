@@ -1,0 +1,21 @@
+
+; <<>> DiG 9.18.50 <<>> A stagingsite.wildresearch.ca @ns1.webhostinghub.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 47909
+;; flags: qr aa rd; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+;; WARNING: recursion requested but not available
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;stagingsite.wildresearch.ca.	IN	A
+
+;; AUTHORITY SECTION:
+wildresearch.ca.	14400	IN	SOA	ns1.webhostinghub.com. systems-notices.webhostinghub.com. 2022091803 86400 7200 3600000 86400
+
+;; Query time: 32 msec
+;; SERVER: 209.182.197.185#53(ns1.webhostinghub.com) (UDP)
+;; WHEN: Tue Oct 06 17:33:16 PDT 2026
+;; MSG SIZE  rcvd: 129
+
